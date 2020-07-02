@@ -7,16 +7,23 @@ namespace SCMTest_Anand
 {
     class OrderProcess : IOrderProcess
     {
-        public List<ProductOrderDeatils>  ValidateRules(List<string> PaymentType)
+        public List<string>  ValidateRules(List<string> PaymentType)
         {
-            IList<ProductOrderDeatils> prodRuleResults = new List<ProductOrderDeatils>();
+            List<string> results = new List<string>();
+            //IList<ProductOrderDeatils> prodRuleResults = new List<ProductOrderDeatils>();
+            PaymnetTypeRule PaymentRule = new PaymnetTypeRule();
+            ProductOrderDeatils ProdOrder = new ProductOrderDeatils();
             foreach (string p in PaymentType)
             {
-                // how to run all the rules in one loop.
+                PaymentRule.RuleExcute(ProdOrder);
+                results.Add("Rule Result for Payment Type:"+ p + 
+                    "is" + ProdOrder.ValidationFlag.ToString()+
+                    "/n Return Message from Rule:"+ 
+                    ProdOrder.ValidationError.ToString());
 
             }
-            // Return the result object with deatils.
-            return new List<ProductOrderDeatils>();
+            // Return the result messages.
+            return results;
         }
     }
 

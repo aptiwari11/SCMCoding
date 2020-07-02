@@ -6,9 +6,14 @@ namespace SCMTest_Anand.Rules
 {
     class PaymnetTypeRule
     {
-        ProductOrderDeatils ProdOrder = new ProductOrderDeatils();
 
-        public bool ProductPaymentRule()
+        public void RuleExcute(ProductOrderDeatils ProdOrder)
+        {
+                 ProductPaymentRule(ProdOrder);
+                 BookPaymentRule(ProdOrder);
+        }
+
+        public void ProductPaymentRule(ProductOrderDeatils ProdOrder)
         {
             var PType = ProdOrder.PaymentType.ToString();
             if (PType == PaymentDetail.PaymentTypes.PhysicalProduct.ToString())
@@ -16,12 +21,11 @@ namespace SCMTest_Anand.Rules
                 ProdOrder.ValidationFlag = true;
                 ProdOrder.PackingSlip = true;
             }
-            return true;
 
         }
+        
 
-
-        public bool BookPaymentRule()
+        public void BookPaymentRule(ProductOrderDeatils ProdOrder)
         {
             try
             {
@@ -32,13 +36,12 @@ namespace SCMTest_Anand.Rules
                     ProdOrder.ValidationFlag = true;
                     ProdOrder.Miscellaneous = "Duplicate Packing Slip for Royalty Department";
                 }
-                return true;
             }
             catch
             {
                 ProdOrder.ValidationFlag = false;
-                ProdOrder.ValidationError = ProdOrder.ValidationFlag + "Failed to validate Book Rule";
-                return false;
+                ProdOrder.ValidationError = 
+                    ProdOrder.ValidationFlag + "Failed to validate Book Rule";
             }
         }
     }
