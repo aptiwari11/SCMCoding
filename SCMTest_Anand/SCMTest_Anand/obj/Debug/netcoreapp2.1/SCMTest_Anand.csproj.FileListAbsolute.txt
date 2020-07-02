@@ -1,0 +1,10 @@
+C:\Users\anand.prakash\Documents\GitHub\SCMCoding\SCMTest_Anand\SCMTest_Anand\bin\Debug\netcoreapp2.1\SCMTest_Anand.deps.json
+C:\Users\anand.prakash\Documents\GitHub\SCMCoding\SCMTest_Anand\SCMTest_Anand\bin\Debug\netcoreapp2.1\SCMTest_Anand.runtimeconfig.json
+C:\Users\anand.prakash\Documents\GitHub\SCMCoding\SCMTest_Anand\SCMTest_Anand\bin\Debug\netcoreapp2.1\SCMTest_Anand.runtimeconfig.dev.json
+C:\Users\anand.prakash\Documents\GitHub\SCMCoding\SCMTest_Anand\SCMTest_Anand\bin\Debug\netcoreapp2.1\SCMTest_Anand.dll
+C:\Users\anand.prakash\Documents\GitHub\SCMCoding\SCMTest_Anand\SCMTest_Anand\bin\Debug\netcoreapp2.1\SCMTest_Anand.pdb
+C:\Users\anand.prakash\Documents\GitHub\SCMCoding\SCMTest_Anand\SCMTest_Anand\obj\Debug\netcoreapp2.1\SCMTest_Anand.csproj.CoreCompileInputs.cache
+C:\Users\anand.prakash\Documents\GitHub\SCMCoding\SCMTest_Anand\SCMTest_Anand\obj\Debug\netcoreapp2.1\SCMTest_Anand.AssemblyInfoInputs.cache
+C:\Users\anand.prakash\Documents\GitHub\SCMCoding\SCMTest_Anand\SCMTest_Anand\obj\Debug\netcoreapp2.1\SCMTest_Anand.AssemblyInfo.cs
+C:\Users\anand.prakash\Documents\GitHub\SCMCoding\SCMTest_Anand\SCMTest_Anand\obj\Debug\netcoreapp2.1\SCMTest_Anand.dll
+C:\Users\anand.prakash\Documents\GitHub\SCMCoding\SCMTest_Anand\SCMTest_Anand\obj\Debug\netcoreapp2.1\SCMTest_Anand.pdb
