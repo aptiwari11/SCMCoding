@@ -7,12 +7,16 @@ namespace SCMTest_Anand
 {
     class OrderProcess : IOrderProcess
     {
+        //IList<ProductOrderDeatils> prodRuleResults = new List<ProductOrderDeatils>();
+        PaymnetTypeRule PaymentRule = new PaymnetTypeRule();
+
+        //Populate this object for test purpose
+        ProductOrderDeatils ProdOrder = new ProductOrderDeatils();
+
         public List<string>  ValidateRules(List<string> PaymentType)
         {
             List<string> results = new List<string>();
-            //IList<ProductOrderDeatils> prodRuleResults = new List<ProductOrderDeatils>();
-            PaymnetTypeRule PaymentRule = new PaymnetTypeRule();
-            ProductOrderDeatils ProdOrder = new ProductOrderDeatils();
+
             foreach (string p in PaymentType)
             {
                 PaymentRule.RuleExcute(ProdOrder);

@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.28307.438
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SCMTest_Anand", "SCMTest_Anand\SCMTest_Anand.csproj", "{1E11B603-BBE5-4426-9FDE-629D5E3AF997}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RulesUnitTest", "RulesUnitTest\RulesUnitTest.csproj", "{A4A67B20-5749-4119-AB8D-33C22AE5B615}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{1E11B603-BBE5-4426-9FDE-629D5E3AF997}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1E11B603-BBE5-4426-9FDE-629D5E3AF997}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1E11B603-BBE5-4426-9FDE-629D5E3AF997}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A4A67B20-5749-4119-AB8D-33C22AE5B615}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4A67B20-5749-4119-AB8D-33C22AE5B615}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4A67B20-5749-4119-AB8D-33C22AE5B615}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4A67B20-5749-4119-AB8D-33C22AE5B615}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -6,19 +6,13 @@ namespace SCMTest_Anand.Rules
 {
     class AgentPaymentRule
     {
-        ProductOrderDeatils ProdOrder = new ProductOrderDeatils();
 
-        public bool AgentCommission()
+        public void AgentCommission(ProductOrderDeatils ProdOrder)
         {
             try
             {
-                var PType = ProdOrder.PaymentType.ToString();
-                if (PType == PaymentDetail.PaymentTypes.BookPayment.ToString())
-                {
                     ProdOrder.ValidationFlag = true;
                     ProdOrder.AgentComm = ProdOrder.AgentCommPer * ProdOrder.TotalOrderCost / 100;
-                }
-                return true;
             }
 
             catch
@@ -26,7 +20,6 @@ namespace SCMTest_Anand.Rules
                 ProdOrder.ValidationFlag = false;
                 ProdOrder.ValidationError = ProdOrder.OrderNumber +
                     "Validation failed for Agent Commision";
-                return false;
             }
 
 

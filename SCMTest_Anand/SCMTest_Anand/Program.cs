@@ -22,8 +22,6 @@ namespace SCMTest_Anand
             Console.WriteLine("Deatils for rules result:{0}", results.ToString());
 
             //All of this can be done in Unite test class as well.
-
-
            
         }
     }

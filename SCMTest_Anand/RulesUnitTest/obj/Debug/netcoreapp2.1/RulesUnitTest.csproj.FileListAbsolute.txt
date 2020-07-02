@@ -1,0 +1,17 @@
+C:\Users\anand.prakash\Documents\GitHub\SCMCoding\SCMTest_Anand\RulesUnitTest\bin\Debug\netcoreapp2.1\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\anand.prakash\Documents\GitHub\SCMCoding\SCMTest_Anand\RulesUnitTest\bin\Debug\netcoreapp2.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\anand.prakash\Documents\GitHub\SCMCoding\SCMTest_Anand\RulesUnitTest\bin\Debug\netcoreapp2.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\anand.prakash\Documents\GitHub\SCMCoding\SCMTest_Anand\RulesUnitTest\bin\Debug\netcoreapp2.1\RulesUnitTest.deps.json
+C:\Users\anand.prakash\Documents\GitHub\SCMCoding\SCMTest_Anand\RulesUnitTest\bin\Debug\netcoreapp2.1\RulesUnitTest.runtimeconfig.json
+C:\Users\anand.prakash\Documents\GitHub\SCMCoding\SCMTest_Anand\RulesUnitTest\bin\Debug\netcoreapp2.1\RulesUnitTest.runtimeconfig.dev.json
+C:\Users\anand.prakash\Documents\GitHub\SCMCoding\SCMTest_Anand\RulesUnitTest\bin\Debug\netcoreapp2.1\RulesUnitTest.dll
+C:\Users\anand.prakash\Documents\GitHub\SCMCoding\SCMTest_Anand\RulesUnitTest\bin\Debug\netcoreapp2.1\RulesUnitTest.pdb
+C:\Users\anand.prakash\Documents\GitHub\SCMCoding\SCMTest_Anand\RulesUnitTest\bin\Debug\netcoreapp2.1\SCMTest_Anand.dll
+C:\Users\anand.prakash\Documents\GitHub\SCMCoding\SCMTest_Anand\RulesUnitTest\bin\Debug\netcoreapp2.1\SCMTest_Anand.pdb
+C:\Users\anand.prakash\Documents\GitHub\SCMCoding\SCMTest_Anand\RulesUnitTest\obj\Debug\netcoreapp2.1\RulesUnitTest.csprojAssemblyReference.cache
+C:\Users\anand.prakash\Documents\GitHub\SCMCoding\SCMTest_Anand\RulesUnitTest\obj\Debug\netcoreapp2.1\RulesUnitTest.csproj.CoreCompileInputs.cache
+C:\Users\anand.prakash\Documents\GitHub\SCMCoding\SCMTest_Anand\RulesUnitTest\obj\Debug\netcoreapp2.1\RulesUnitTest.AssemblyInfoInputs.cache
+C:\Users\anand.prakash\Documents\GitHub\SCMCoding\SCMTest_Anand\RulesUnitTest\obj\Debug\netcoreapp2.1\RulesUnitTest.AssemblyInfo.cs
+C:\Users\anand.prakash\Documents\GitHub\SCMCoding\SCMTest_Anand\RulesUnitTest\obj\Debug\netcoreapp2.1\RulesUnitTest.csproj.CopyComplete
+C:\Users\anand.prakash\Documents\GitHub\SCMCoding\SCMTest_Anand\RulesUnitTest\obj\Debug\netcoreapp2.1\RulesUnitTest.dll
+C:\Users\anand.prakash\Documents\GitHub\SCMCoding\SCMTest_Anand\RulesUnitTest\obj\Debug\netcoreapp2.1\RulesUnitTest.pdb

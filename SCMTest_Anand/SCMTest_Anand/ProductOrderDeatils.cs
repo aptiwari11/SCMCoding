@@ -4,12 +4,12 @@ using System.Text;
 
 namespace SCMTest_Anand
 {
-    class ProductOrderDeatils : PaymentDetail
+    public class ProductOrderDeatils : PaymentDetail
     {
         //This class will have the information about Order and it's payment type.
         public int OrderNumber { get; set; }
 
-        public List<PaymentDetail> paymentDetails { get; set; }
+        List<PaymentDetail> paymentDetails { get; set; }
         public bool ValidationFlag { get; set; }
         public string ValidationError { get; set; }
         public string Miscellaneous { get; set; }

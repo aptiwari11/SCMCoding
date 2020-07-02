@@ -1,6 +1,6 @@
 ﻿namespace SCMTest_Anand
 {
-    internal class PaymentDetail
+    public class PaymentDetail
     {
         public string PaymentType { get; set; }
         public string PaymentDesc { get; set; }
