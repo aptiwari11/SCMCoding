@@ -14,7 +14,7 @@ namespace SCMTest_Anand
         List<PaymentDetail> paymentDetails { get; set; }
         public bool ValidationFlag { get; set; }
         public string ValidationError { get; set; }
-        public List<string> Miscellaneous { get; set; }
+        public string Miscellaneous { get; set; }
         public bool PackingSlip { get; set; }
         public int AgentComm { get; set; }
         public int TotalOrderCost { get; set; }

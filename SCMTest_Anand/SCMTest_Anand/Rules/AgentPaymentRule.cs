@@ -18,7 +18,7 @@ namespace SCMTest_Anand.Rules
             catch
             {
                 ProdOrder.ValidationFlag = false;
-                ProdOrder.ValidationError = ProdOrder.OrderNumber +
+                ProdOrder.ValidationError = ProdOrder.ValidationError+ ProdOrder.OrderNumber +
                     "Validation failed for Agent Commision";
             }
 

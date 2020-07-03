@@ -22,6 +22,7 @@ namespace SCMTest_Anand
             ProdOrder.AgentComm = 0;
             ProdOrder.AgentCommPer = 5;
             ProdOrder.cutomerID = 101;
+            ProdOrder.ValidationError = "";
 
         }
 
@@ -35,7 +36,7 @@ namespace SCMTest_Anand
                 PaymentRule.RuleExcute(ProdOrder);
                 results.Add("Rule Result for Payment Type:"+ p + 
                     "is" + ProdOrder.ValidationFlag.ToString()+
-                    "/n Return Message from Rule:"+ 
+                    "/n Return Message from Rule:" +
                     ProdOrder.ValidationError.ToString());
 
             }

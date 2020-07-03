@@ -47,7 +47,7 @@ namespace SCMTest_Anand.Rules
             catch
             {
                 ProdOrder.ValidationFlag = false;
-                ProdOrder.ValidationError = 
+                ProdOrder.ValidationError = ProdOrder.ValidationError+
                 ProdOrder.ValidationFlag + "Failed to validate Book Rule";
             }
         }
@@ -67,7 +67,7 @@ namespace SCMTest_Anand.Rules
             catch
             {
                 ProdOrder.ValidationFlag = false;
-                ProdOrder.ValidationError =
+                ProdOrder.ValidationError = ProdOrder.ValidationError +
                 ProdOrder.ValidationFlag + "Failed to validate Video Payment Rule";
             }
         }
@@ -80,8 +80,9 @@ namespace SCMTest_Anand.Rules
                 if (PType == PaymentDetail.PaymentTypes.MemebershipActPayment.ToString())
                 {
                     ProdOrder.ValidationFlag = true;
-                    ProdOrder.Miscellaneous.Add("Memebership Upgraded applied for Customer:" +
-                        ProdOrder.cutomerID);
+                    ProdOrder.Miscellaneous = ProdOrder.Miscellaneous+
+                        "Memebership Upgraded applied for Customer:" +
+                        ProdOrder.cutomerID;
 
                 }
 
@@ -99,11 +100,12 @@ namespace SCMTest_Anand.Rules
             }
             
             
-            catch
+            catch(Exception e)
             {
                 ProdOrder.ValidationFlag = false;
-                ProdOrder.ValidationError =
-                ProdOrder.ValidationFlag + "Failed to Memebership/Upgrade Payment Rule";
+                ProdOrder.ValidationError = ProdOrder.ValidationError+
+                ProdOrder.ValidationFlag + "Failed to Memebership/Upgrade Payment Rule" +
+                e.Message;
             }
         }
     }

@@ -15,8 +15,9 @@ namespace SCMTest_Anand.Rules
                 PType == PaymentDetail.PaymentTypes.MemebershipUpPayment.ToString())
             {
                 ProdOrder.ValidationFlag = true;
-                ProdOrder.Miscellaneous.Add("Email has been sent to customer:" +
-                    ProdOrder.cutomerID);
+                ProdOrder.Miscellaneous = ProdOrder.Miscellaneous +
+                    "Email has been sent to customer:" +
+                    ProdOrder.cutomerID;
             }
 
         }
