@@ -8,3 +8,4 @@ C:\Users\anand.prakash\Documents\GitHub\SCMCoding\SCMTest_Anand\SCMTest_Anand\ob
 C:\Users\anand.prakash\Documents\GitHub\SCMCoding\SCMTest_Anand\SCMTest_Anand\obj\Debug\netcoreapp2.1\SCMTest_Anand.AssemblyInfo.cs
 C:\Users\anand.prakash\Documents\GitHub\SCMCoding\SCMTest_Anand\SCMTest_Anand\obj\Debug\netcoreapp2.1\SCMTest_Anand.dll
 C:\Users\anand.prakash\Documents\GitHub\SCMCoding\SCMTest_Anand\SCMTest_Anand\obj\Debug\netcoreapp2.1\SCMTest_Anand.pdb
+C:\Users\anand.prakash\Documents\GitHub\SCMCoding\SCMTest_Anand\SCMTest_Anand\obj\Debug\netcoreapp2.1\SCMTest_Anand.csprojAssemblyReference.cache

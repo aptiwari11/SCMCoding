@@ -13,9 +13,22 @@ namespace SCMTest_Anand
         //Populate this object for test purpose
         ProductOrderDeatils ProdOrder = new ProductOrderDeatils();
 
+        void CreateProdOrderDeatils(ProductOrderDeatils productOrder)
+        {
+            ProdOrder.OrderNumber = 1;
+            productOrder.PaymentDesc = "Paid";
+            productOrder.PaymentType = PaymentDetail.PaymentTypes.PhysicalProduct.ToString();
+            ProdOrder.TotalOrderCost = 100;
+            ProdOrder.AgentComm = 0;
+            ProdOrder.AgentCommPer = 5;
+            ProdOrder.cutomerID = 101;
+
+        }
+
         public List<string>  ValidateRules(List<string> PaymentType)
         {
             List<string> results = new List<string>();
+            CreateProdOrderDeatils(ProdOrder);
 
             foreach (string p in PaymentType)
             {

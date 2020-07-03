@@ -8,12 +8,14 @@ namespace SCMTest_Anand.Rules
     {
         AgentPaymentRule AgentR = new AgentPaymentRule();
         ShippingRules ShipR = new ShippingRules();
+        EmailRules EmailR = new EmailRules();
 
         public void RuleExcute(ProductOrderDeatils ProdOrder)
         {
                  ProductPaymentRule(ProdOrder);
                  BookPaymentRule(ProdOrder);
                  VideoPaymentRule(ProdOrder);
+                 MemeberShipPaymentRule(ProdOrder);
         }
 
          public void ProductPaymentRule(ProductOrderDeatils ProdOrder)
@@ -67,6 +69,41 @@ namespace SCMTest_Anand.Rules
                 ProdOrder.ValidationFlag = false;
                 ProdOrder.ValidationError =
                 ProdOrder.ValidationFlag + "Failed to validate Video Payment Rule";
+            }
+        }
+
+        public void MemeberShipPaymentRule(ProductOrderDeatils ProdOrder)
+        {
+            try
+            {
+                var PType = ProdOrder.PaymentType.ToString();
+                if (PType == PaymentDetail.PaymentTypes.MemebershipActPayment.ToString())
+                {
+                    ProdOrder.ValidationFlag = true;
+                    ProdOrder.Miscellaneous.Add("Memebership Upgraded applied for Customer:" +
+                        ProdOrder.cutomerID);
+
+                }
+
+                else if (PType == PaymentDetail.PaymentTypes.MemebershipUpPayment.ToString())
+                {
+
+                    ProdOrder.ValidationFlag = true;
+
+                }
+
+                //Email Rule.
+                EmailR.EmailSendRule(ProdOrder);
+
+
+            }
+            
+            
+            catch
+            {
+                ProdOrder.ValidationFlag = false;
+                ProdOrder.ValidationError =
+                ProdOrder.ValidationFlag + "Failed to Memebership/Upgrade Payment Rule";
             }
         }
     }

@@ -15,7 +15,7 @@ namespace SCMTest_Anand.Rules
                 {   
                     ProdOrder.PackingSlip = true;
                     ProdOrder.ValidationFlag = true;
-                    ProdOrder.Miscellaneous = "Duplicate Packing Slip for Royalty Department";
+                    ProdOrder.Miscellaneous.Add("Duplicate Packing Slip for Royalty Department");
                 }
 
 
@@ -24,7 +24,8 @@ namespace SCMTest_Anand.Rules
                 {
                     ProdOrder.PackingSlip = true;
                     ProdOrder.ValidationFlag = true;
-                    ProdOrder.Miscellaneous = "Adding first add video to packinglist";
+                    ProdOrder.Miscellaneous.Add("Adding first add video to packinglist for OrderID:"
+                        + ProdOrder.OrderNumber);
                 }
 
         }
